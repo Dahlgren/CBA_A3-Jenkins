@@ -1,4 +1,4 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Mikero\pboProject\Settings]
-"m_exclude"="thumbs.db,*.txt,*.h,*.dep,*.cpp,*.bak,*.png,*.log,*.pew,*.hpp,source,*.tga,*.wav"
+"m_exclude"="thumbs.db,*.txt,*.h,*.dep,*.cpp,*.bak,*.png,*.log,*.pew,*.hpp,source,*.tga"

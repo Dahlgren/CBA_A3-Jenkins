@@ -44,8 +44,8 @@ pipeline {
         // Mount P: drive
         bat 'subst P: .'
 
-        // Build CBA A3 with CI exit status and external files check enabled
-        bat 'python3\\python.exe x/cba/tools/make.py ci checkexternal'
+        // Build CBA A3 with CI exit status
+        bat 'python3\\python.exe x/cba/tools/make.py ci'
 
         // Move built mod to root of workspace
         bat 'move x/cba/release/@cba_a3 @cba_a3'

@@ -8,7 +8,7 @@ pipeline {
       steps {
         dir('x/cba') {
           script {
-            def cbaGit = git url: 'https://github.com/CBATeam/CBA_A3.git', branch: 'master', changelog: false, poll: false
+            def cbaGit = git url: 'https://github.com/CBATeam/CBA_A3.git', branch: 'master', changelog: false, poll: true
             env.CBA_A3_COMMIT = cbaGit.GIT_COMMIT
           }
 
